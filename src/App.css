@@ -1,0 +1,43 @@
+.App {
+  padding: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.incButton{
+  width: 60px;
+  height: 56px;
+  font-size: 21px;
+  color: #FFFFFF;
+  background-color: #B24242;
+  border-color: #B24242;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.decButton{
+  width: 60px;
+  height: 56px;
+  font-size: 21px;
+  color: #B24242;
+  background-color: white;
+  border-radius: 8px 0px 0px 8px;
+  border-color: #B24242;
+}
+.counter{
+  color: #B24242;
+  font-weight: 900;
+  width: 60px;
+  height: 53px;
+  font-size: 21px;
+  border: 1px solid rgba(178,66,66, 1);
+  opacity: 1;
+  background-color: rgba(251,232,232, 1);
+  text-align: center;
+}
